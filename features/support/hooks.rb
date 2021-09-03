@@ -60,7 +60,6 @@ def take_screenshot(file_name = '', status = :passed)
   $screenshot_counter += 1
 end
 
-
 AfterStep do |result, step|
   begin
     status_name = status_from_result result

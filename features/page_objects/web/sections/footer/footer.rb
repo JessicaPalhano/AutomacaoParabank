@@ -5,7 +5,6 @@ module Web
 
         elements :btn_footer, '#footerPanel ul li'
 
-
       end
     end
   end

@@ -22,7 +22,3 @@ Funcionalidade: Realizar cadastro
       | tipo_usuario        | mensagem                        |
       | senha_em_branco     | Password is required.           |
       | usuario_existente   | This username already exists.   |
-
-
-
-

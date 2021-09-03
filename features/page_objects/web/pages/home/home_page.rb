@@ -9,19 +9,11 @@ module Web
         section :header, Web::Sections::Header::MainHeader, '#mainPanel'
         section :footer, Web::Sections::Footer::Footer, '#footerPanel '
 
-
         def realizar_login(username, password)
           header.input_username.set username
           header.input_password.set password
           header.btn_login.click
         end
-
-        # Para passar todos os valores juntos
-        # def realizar_login(teste)
-        #   header.input_username.set teste["username"]
-        #   header.input_password.set teste["password"]
-        #   header.btn_login.click
-        # end
 
       end
     end

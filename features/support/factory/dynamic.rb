@@ -34,8 +34,6 @@ module Factory
       }
     end
 
-
-
     def self.address
       {
         cep: '99010051',

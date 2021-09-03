@@ -12,6 +12,3 @@ Funcionalidade: Realizar login
     Cenário: Realizar login com sucesso
       Quando realizar o login com os dados válidos
       Então deverá aparecer a conta do cliente
-
-
-

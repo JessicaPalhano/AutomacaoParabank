@@ -18,9 +18,7 @@ module Web
         element :input_password, '[name="customer.password"]'
         element :input_corfirm_password, '[name="repeatedPassword"]'
         element :btn_register, 'input[value="Register"]'
-
         element :message_erro, '.form2 .error'
-
 
         def cadastrar_usuario(usuario_valido)
           input_first_name.set usuario_valido[:first_name]
